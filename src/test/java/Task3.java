@@ -6,7 +6,7 @@ public class Task3 {
         System.out.println("გთხოვთ შეიყვანოთ დადებითი რიცხვი: ");
         int input = scanner.nextInt();
 
-        for (int i = 1; i < 11; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(" 5 * " + i + " = " + input * i);
         }
     }
